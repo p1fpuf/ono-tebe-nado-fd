@@ -11,36 +11,46 @@
 	</head>
 	<body>
 		<header class="header">
-			<nav>
-				<ul>
-					<li>
-						<a>главная</a>
+			<nav class="header__menu">
+				<ul class="header__links-list">
+					<li class="header__links-list-item_no-bullit">
+						<a class="header__link_active">главная</a>
 					</li>
-					<li>
-						<a>посмотреть лоты</a>
+					<li class="header__links-list-item">
+						<a class="header__link">посмотреть лоты</a>
 					</li>
-					<li>
-						<a>об аукционе</a>
+					<li class="header__links-list-item">
+						<a class="header__link">об аукционе</a>
 					</li>
 				</ul>
 			</nav>
-			<a> <img src="./images/logo-black.svg" alt="Логотип проекта черный" </a>
-			<address>
-				<a href="tel:+9 999 555 5555">+9 999 555 5555</a>
-				<a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-				<p>наб. Принсенграхт 263- 265, Амстердам</p>
+			<a class="header__logo">
+				<img class="header__logo-image" src="./images/logo-black.svg"
+				alt="Логотип проекта черный"
+			</a>
+			<address class="address">
+				<a class="header__address" href="tel:+9 999 555 5555">+9 999 555 5555</a
+				><br />
+				<a class="header__address" href="mailto:info@sobaka.ge"
+					>info@sobaka.ge</a
+				><br />
+				<p class="header__address">
+					наб. Принсенграхт 263-<br />265, Амстердам
+				</p>
 			</address>
 		</header>
 		<main class="main">
 			<section class="cover">
-				<h1>
-					<span>Оно</span>
-					<span>тебе</span>
-					<span>надо</span>
+				<h1 class="cover__title">
+					<span class="aligned-text letter-spacing-extended">Оно</span>
+					<span class="aligned-text_center letter-spacing-extended">тебе</span>
+					<span class="aligned-text_right letter-spacing-extended">надо</span>
 				</h1>
-				<div class="description">
-					<p>Аукцион вещей, в которые никто не верил</p>
-					<button>Сделать ставку</button>
+				<div class="cover__description">
+					<p class="cover__description-text">
+						Аукцион вещей, в которые никто не верил
+					</p>
+					<button class="bet-button">Сделать ставку</button>
 				</div>
 			</section>
 			<section class="lots">

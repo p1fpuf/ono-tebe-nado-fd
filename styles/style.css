@@ -1,20 +1,71 @@
 .header {
+	display: grid;
+	grid-template-columns: 1fr min-content 1fr;
+	align-items: center;
+	margin-left: 24px;
+	margin-right: 24px;
+	margin-bottom: 0;
+}
+
+.header__menu {
+	padding: 133px 36.52px 138px 50px;
+}
+
+.header__links-list {
+	display: flex;
+	column-gap: 25.48px;
+	white-space: nowrap;
+	font-size: 18px;
+	line-height: 21.13px;
+	text-underline-offset: 4px;
+}
+
+.header__links-list-item {
+	list-style: circle;
+	text-decoration: underline;
+}
+
+.header__links-list-item_no-bullit {
+	list-style: none;
+}
+
+.header__logo-image {
+	width: 148px;
+	height: 105px;
+}
+
+.address {
+	padding: 95px 50px 100px 184px;
+	justify-self: end;
+}
+
+.header__address {
+	font-size: 17px;
+	line-height: 21.13px;
+	font-style: normal;
+	max-width: 240px;
+	text-underline-offset: 4px;
+	white-space: nowrap;
 }
 
 .main {
+	margin-left: 24px;
+	margin-right: 24px;
 }
 
 .cover {
-}
-
-.description {
+	margin-bottom: 180px;
 }
 
 .lots {
+	margin-bottom: 120px;
 }
 
 .about {
+	margin-bottom: 180px;
 }
 
 .footer {
+	margin-left: 24px;
+	margin-right: 24px;
 }
