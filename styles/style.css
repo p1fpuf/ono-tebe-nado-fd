@@ -3,7 +3,7 @@
 	display: grid;
 	grid-template-columns: 1fr min-content 1fr;
 	align-items: center;
-	padding: 91px 50px 100px;
+	padding: 92px 50px 96px;
 }
 
 .header__links-list {
@@ -230,11 +230,11 @@
 	padding-right: 24px;
 }
 
-.about > :nth-child(1){
+.about > :nth-child(1) {
 	padding: 35px 0 320px 47px;
 }
 
-.about > :nth-child(2){
+.about > :nth-child(2) {
 	padding: 133px 0 13px;
 }
 
@@ -319,5 +319,5 @@
 }
 
 .footer__social-list-item:last-child {
-    margin-right: 0;
+	margin-right: 0;
 }
