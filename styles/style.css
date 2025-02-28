@@ -274,7 +274,7 @@
 .footer {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	padding: 0 50px 82px;
+	padding: 0 50px 70px;
 }
 
 .footer__address {
