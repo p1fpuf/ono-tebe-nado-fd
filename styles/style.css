@@ -233,7 +233,8 @@
 }
 
 .about > :nth-child(2) {
-	padding: 133px 0 13px;
+	display: grid;
+	padding: 133px 0 0;
 }
 
 .about__logo {
@@ -260,6 +261,7 @@
 }
 
 .about__text {
+	align-self: end;
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 24px;
@@ -273,7 +275,7 @@
 .footer {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	padding: 20px 50px 82px;
+	padding: 0 50px 0;
 }
 
 .footer__address {
@@ -282,6 +284,7 @@
 	line-height: 24.3px;
 	text-underline-offset: 4px;
 	font-style: normal;
+	padding-bottom: 82px;
 }
 
 .footer__menu {
