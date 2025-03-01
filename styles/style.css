@@ -10,7 +10,7 @@
 	display: flex;
 	justify-content: start;
 	gap: 32px;
-	font-weight: 405;
+	font-weight: 400;
 	font-size: 18px;
 	line-height: 21.13px;
 	text-underline-offset: 4px;
@@ -126,6 +126,7 @@
 	padding: 12px 32px 11px 31px;
 	border: thin solid #ffffff;
 	text-transform: uppercase;
+	cursor: pointer;
 }
 
 /* Секция lots */
@@ -148,6 +149,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	gap: 25px;
 }
 
 .lots__card-list-item {
@@ -162,6 +164,8 @@
 	flex-flow: column;
 	justify-content: space-between;
 	height: 100%;
+	background-size: cover;
+	background-position: center;
 }
 
 .card-link {
@@ -184,20 +188,14 @@
 
 .card_type_film {
 	background-image: url(../images/card-lot-01.jpg);
-	background-size: cover;
-	background-position: center;
 }
 
 .card_type_book {
 	background-image: url(../images/card-lot-02.jpg);
-	background-size: cover;
-	background-position: center;
 }
 
 .card_type_picture {
 	background-image: url(../images/card-lot-03.jpg);
-	background-size: cover;
-	background-position: center;
 }
 
 .card__text {
@@ -265,6 +263,7 @@
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 24px;
+	padding-right: 5px;
 }
 
 .about__text + .about__text {
@@ -274,7 +273,7 @@
 .footer {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	padding: 20px 50px 70px;
+	padding: 20px 50px 82px;
 }
 
 .footer__address {
