@@ -229,7 +229,8 @@
 }
 
 .about > :nth-child(1) {
-	padding: 35px 0 320px 47px;
+	padding-top: 35px;
+	padding-left: 47px;
 }
 
 .about > :nth-child(2) {
